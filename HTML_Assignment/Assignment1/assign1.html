@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biodata</title>
+</head>
+
+<body>
+    <h1>My Bio Data</h1>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <div>
+            <label>First Name:</label>
+            <input type="text" placeholder="First Name" />
+            <label>Last Name:</label>
+            <input type="text" placeholder="Last Name" />
+        </div>
+        <br />
+        <div>
+            <label>Male:</label>
+            <input type="radio" name="gender" id="male" value="male" />
+
+            <label>Female:</label>
+            <input type="radio" name="gender" id="female" value="female" />
+
+            <label>Other:</label>
+            <input type="radio" name="gender" id="other" value="other" />
+
+            <br /><br />
+            <label>Date of Birth:</label>
+            <input type="date" />
+        </div>
+        <br />
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" placeholder="Enter Your Email" />
+            <br /><br />
+
+            <label for="phone">Phone</label>
+            <input type="number" placeholder="+91" />
+            <br /><br />
+
+            <label for="height">Height</label>
+            <input type="number" placeholder="Height in Feet" />
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Education</legend>
+        <div>
+            <label for="schoolName">School Name:</label>
+            <input type="text" name="schoolName" placeholder="School Name" />
+            <br /><br />
+
+            <label for="class">Class:</label>
+            <input type="number" name="class" placeholder="Enter Class" />
+            <br /><br />
+
+            <label for="stream">Stream:</label>
+            <select name="Stream" id="stream">
+          <option value="Stream">Stream</option>
+          <option value="Non-medical">Non-medical</option>
+          <option value="Medical">Medical</option>
+          <option value="Commerce">Commerce</option>
+          <option value="Arts">Arts</option>
+        </select>
+            <br /><br />
+
+            <label for="marksheet">Marksheet:</label>
+            <input type="file" name="marksheet" />
+        </div>
+    </fieldset>
+    <br />
+
+    <div>
+        <input type="button" value="Submit" />
+    </div>
+
+
+    <center>
+        <footer>Made with ❤ by
+            <a href="https://github.com/bhavesh1129">Bhavesh Garg</a>
+        </footer>
+    </center>
+</body>
+
+</html>
