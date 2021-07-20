@@ -2,7 +2,8 @@
 using namespace std;
 
 int main() {
-	int num, flag = 0;
+	int num;
+	int flag = 0;
 	std:: cin >> num;
 
 	for(int i = 2; i <= num/2; i++){
