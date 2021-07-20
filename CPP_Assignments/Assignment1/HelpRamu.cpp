@@ -35,6 +35,7 @@ int main() {
     ans += cost(c1, c2, cab, m_cabs, c3);
     if (c4 < ans)
       ans = c4;
+    
     cout << ans << endl;
   }
 }
