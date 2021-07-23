@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Otomanopee+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* head  */
+
+.head {
+    position: relative;
+    font-family: 'Otomanopee One', sans-serif;
+    color: white;
+    font-size: 49px;
+    text-align: center;
+    background-color: #22223b;
+}
+
+.headSpan {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.headSpan a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* container */
+
+.container {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    margin: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+/* box  */
+
+.box {
+    padding: 10px;
+}
+
+
+/* contact */
+
+.contacts {
+    border-radius: 5px;
+    position: sticky;
+    top: 2%;
+    background-color: #22223b;
+    color: white;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 32px;
+    padding-left: 10px;
+}
+
+
+/* content */
+
+.content ul li {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    list-style: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* unicons */
+
+i.uil-user-circle {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.contactNum {
+    float: right;
+}
+
+i.uil-phone,
+.uil-comment-alt-lines,
+.uil-whatsapp {
+    padding: 6px;
+    font-size: 20px;
+    transition: 0.5s all ease-in-out;
+}
+
+i.uil-whatsapp {
+    color: green;
+}
+
+i.uil-phone:hover {
+    font-size: 30px;
+}
+
+i.uil-comment-alt-lines:hover {
+    font-size: 30px;
+}
+
+i.uil-whatsapp:hover {
+    font-size: 30px;
+}
+
+
+/* footer  */
+
+footer {
+    background-color: #22223b;
+    color: white;
+    font-family: 'Otomanopee One', sans-serif;
+    padding: 20px;
+}
+
+
+/* for mobile screens  */
+
+@media only screen and (max-width: 768px) {
+    .content {
+        font-size: 10px;
+    }
+    i.uil-user-circle {
+        padding: 5px;
+        font-size: 15px;
+    }
+    .contactNum {
+        font-size: 10px;
+    }
+    i.uil-phone,
+    .uil-comment-alt-lines,
+    .uil-whatsapp {
+        padding: 2px;
+        font-size: 15px;
+        transition: 0.5s all ease-in-out;
+    }
+    i.uil-phone:hover {
+        font-size: 17px;
+    }
+    i.uil-comment-alt-lines:hover {
+        font-size: 17px;
+    }
+    i.uil-whatsapp:hover {
+        font-size: 17px;
+    }
+}
