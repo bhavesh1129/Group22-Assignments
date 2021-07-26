@@ -17,6 +17,7 @@
 | Assignment No. | LINKS | DEPLOYED LINK |
 | :---:   | :-: | :-: |
 | 1 | https://bit.ly/3rz0Xln | https://bhavesh1129.github.io/Web_Assignment1/ |
+| 2 | https://bit.ly/2TC0nXn | https://bhavesh1129.github.io/Web_Assignment1/ |
 
 <hr/>
 
