@@ -1,7 +1,7 @@
 # Group22 Assignments:bookmark_tabs:
 
 #### This Repository📁 contains all the asignment:books: related work of both Web-Development:computer: and CPP(PA):fountain_pen: given by the respective instructors	:man_technologist: (of Coding Blocks).
-##### Do star the repositor if it might helps you, and any suggestions/ corrections are always welcomed! :slightly_smiling_face::wink:
+##### Do star the repository if it might helps you, and any suggestions/ corrections are always welcomed! :slightly_smiling_face::wink:
 
 <hr/>
 
