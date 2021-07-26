@@ -6,21 +6,21 @@
 ### CPP ASSIGNMENTS :infinity:
 | Assignment No. | LINKS |
 | :---:   | :-: |
-| 1 | https://github.com/bhavesh1129/Group22-Assignments/tree/main/CPP_Assignments/Assignment1 |
-| 2 | https://github.com/bhavesh1129/Group22-Assignments/tree/main/CPP_Assignments/Assignment2 |
+| 1 | https://bit.ly/373dZy8 |
+| 2 | https://bit.ly/3ryT9Qu |
 
 <hr/>
 
 ### HTML ASSIGNMENTS :jigsaw:
 | Assignment No. | LINKS | DEPLOYED LINK |
 | :---:   | :-: | :-: |
-| 1 | https://github.com/bhavesh1129/Group22-Assignments/tree/main/HTML_Assignment/Assignment1 | https://bhavesh1129.github.io/Web_Assignment1/ |
+| 1 | https://bit.ly/3rz0Xln | https://bhavesh1129.github.io/Web_Assignment1/ |
 
 <hr/>
 
 ### CSS ASSIGNMENTS :dart:
 | Assignment No. | LINKS | DEPLOYED LINK |
 | :---:   | :-: | :-: |
-| 1 | https://github.com/bhavesh1129/Group22-Assignments/tree/main/CSS_Assignment/Assignment1 | https://bhavesh1129.github.io/PhoneBook/ |
+| 1 | https://bit.ly/3x5J8vn | https://bhavesh1129.github.io/PhoneBook/ |
 
 <hr/>
