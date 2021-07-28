@@ -1,46 +1,46 @@
-#include <iostream>
-#include <cmath>
+#include<iostream>
 using namespace std;
 
-int main()
-{
-  int n, m, count = 0, i;
-  int arr1[n], temp[100000] = 0, sumOfArr1 = 0, sumOfArr2 = 0;
-  //input array
-  cin >> n;
-  for (int i = 0; i < n; i++)
-  {
-    cin >> arr1[i];
-  }
-  cin >> m;
-  int arr2[m];
-  for (int i = 0; i < m; i++)
-  {
-    cin >> arr2[i];
-  }
-
-  //logic part
-  for (int i = n - 1; i >= 0; i--)
-  {
-    sumOfArr1 += arr1[i] * pow(10, count++);
-  }
-  count = 0;
-  for (int i = m - 1; i >= 0; i--)
-  {
-    sumOfArr2 += arr2[i] * pow(10, count++);
-  }
-  int res = sumOfArr1 + sumOfArr2;
-  int j = 0;
-  while (res)
-  {
-    temp[j++] = res % 10;
-    res = res / 10;
-  }
-
-  //print
-  for (int k = j - 1; k >= 0; k--)
-  {
-    cout << temp[k] << ", ";
-  }
-  cout << "END";
+int main() {
+	int n1;
+	cin>>n1;
+	int arr1[n1];
+	for(int i=0;i<n1;i++){
+		cin>>arr1[i];
+	}
+	int n2;
+	cin>>n2;
+	int arr2[n2];
+	for(int i=0;i<n2;i++){
+		cin>>arr2[i];
+	}
+	int n=n1>n2?n1:n2;
+	int sum[n];
+	int i=n1-1;
+	int j=n2-1;
+	int k=n-1;
+	int d=0,c=0;
+	while(k>=0){
+		d=c;
+		if(i>=0){
+			d+=arr1[i];
+		}
+		if(j>=0){
+			d+=arr2[j];
+		}
+		c=d/10;
+		sum[k]=d%10;
+		i--;
+		j--;
+		k--;
+	}
+	if(c!=0){
+		cout<<c<<", ";
+	}
+	for(int i=0;i<n;i++){
+		cout<<sum[i]<<", ";
+	}
+	cout<<"END";
+	
+	return 0;
 }
