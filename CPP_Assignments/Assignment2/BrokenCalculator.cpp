@@ -5,7 +5,7 @@ int mult(int k,int arr[],int arr_size);
 
 void fact ( int n)
 {
-	int arr[500];
+	int arr[1000000];
 	arr[0]=1;
 	int arr_size = 1;
 	for(int i=2;i<=n;i++)
