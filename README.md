@@ -8,8 +8,8 @@
 ### CPP ASSIGNMENTS :infinity:
 | Assignment No. | LINKS |
 | :---:   | :-: |
-| 1 | https://bit.ly/373dZy8 |
 | 2 | https://bit.ly/3ryT9Qu |
+| 3 | https://bit.ly/3y9Ejm1 |
 
 <hr/>
 
