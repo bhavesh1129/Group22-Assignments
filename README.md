@@ -25,5 +25,5 @@
 | Assignment No. | LINKS | DEPLOYED LINK |
 | :---:   | :-: | :-: |
 | 1 | https://bit.ly/3x5J8vn | https://bhavesh1129.github.io/PhoneBook/ |
-| 2 |  | https://bhavesh1129-animated-button.netlify.app/ |
-| 3 |  | https://bhavesh1129-homedecor.netlify.app/ |
+| 2 | https://bit.ly/2TMaoS1 | https://bhavesh1129-animated-button.netlify.app/ |
+| 3 | https://bit.ly/3liMB7E | https://bhavesh1129-homedecor.netlify.app/ |
