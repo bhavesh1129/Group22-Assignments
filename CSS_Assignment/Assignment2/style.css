@@ -4,3 +4,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #212529;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+}
+
+button {
+    background: none;
+    border: 2px solid #ff6f2c;
+    font: inherit;
+    line-height: 1;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 1.8rem;
+}
+
+button {
+    color: #ff6f2c;
+    transition: 0.25s;
+}
+
+.btn:hover,
+.btn:focus {
+    border-color: #fdc500;
+    color: #fdc500;
+    box-shadow: 0 0.6em 0.6em -0.4em #fdc500;
+    transform: translateY(-0.25em);
+}
