@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project</title>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light m-2">
+        <div class="container-fluid">
+            <a class="navbar-brand text-xl" href="#home">🐹Jerry</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor03">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home
+                            <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#movies">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <div id="home" class="flex-row d-flex align-items-center flex-wrap flex-sm-nowrap justify-content-center">
+        <div class="card bg-light text-white w-50 m-3 w-full-lg d-flex align-items-center flex-wrap justify-content-center">
+            <img class="card-img p-1 w-50 h-50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAjzPH9noh2cWVTfkt63IkMLsLg5bIMlQZ9LuyvzCrEPCRYccqo7H_yP2XwqyPAfI1Xi0&usqp=CAU" alt="Image">
+        </div>
+        <div class="w-50 m-3">
+            <h2 class="title text-info">JERRY</h2>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos magni aperiam deserunt placeat fugiat necessitatibus tempore facilis delectus eius ut perspiciatis, minus culpa ad eveniet possimus itaque! Quasi, nostrum dolorem. Lorem ipsum dolor
+                sit amet consectetur adipisicing elit. Quos magni deserunt placeat fugiat necessitatibus tempore facilis delectus eius ut perspiciatis, minus culpa ad eveniet possimus itaque! Quasi, nostrum dolorem. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit.
+            </p>
+            <div>
+                <h5>Watch me at</h5>
+                <button type="button" class="btn btn-outline-primary m-1">Cartoon Network</button>
+                <button type="button" class="btn btn-outline-warning m-1">Pogo</button>
+                <button type="button" class="btn btn-outline-danger m-1"><i
+                        class="bi bi-youtube p-1"></i>Youtube</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Progress Bar Techs -->
+    <div id="skills">
+        <h1 class="mx-4 my-0">My Skills</h1>
+        <div class="container">
+            <h4 class="my-1">Smart</h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 90%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h4 class="my-1">Active</h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h4 class="my-1">Clever</h4>
+            <div class="progress">
+                <div class=" bg-warning progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h4 class="my-1">Funny</h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h4 class="my-1">Emotional</h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Movies Cards -->
+    <div id="movies">
+        <h1 class="mx-4 my-3">My Movies</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mx-2">
+            <div class="col ">
+                <div class="card cursor-">
+                    <img src="https://cdn.raretoonsindia.com/wp-content/uploads/2021/01/Tom-and-Jerry-The-Lost-Dragon-Hindi-Movie-Hindi-Download-FHD.jpg" class="card-img-top p-2 " alt="Movie1">
+                    <div class="card-body ">
+                        <h5 class="card-title fs-4 text-success">Tom and Jerry: The Lost Dragon</h5>
+                        <p class="card-text ">Lorem ipsum dolor sit alias repellendus laboriosam cum, ipsa voluptas numquam quidem accusantium dolores eos sit ipsam, sequi perspiciatis. Dolore nostrum laborum animi fugit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card ">
+                    <img src="https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/ac/41/bd/ac41bd62-53ba-ee39-919e-e9750cc95729/pr_source.lsr/1200x675.jpg" class="card-img-top p-2 " alt="Movie2">
+                    <div class="card-body ">
+                        <h5 class="card-title fs-4 text-warning">Tom and Jerry: Blast Off to Mars</h5>
+                        <p class="card-text ">Lorem ipsum dolor sit alias repellendus laboriosam cum, ipsa voluptas numquam quidem accusantium dolores eos sit ipsam, sequi perspiciatis. Dolore nostrum laborum animi fugit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/turner-213_s1e1-Full-Image_GalleryCover-en-US-1595010863924._UR1920,1080_RI_.jpg" class="card-img-top p-2 " alt="Movie3">
+                    <div class="card-body ">
+                        <h5 class="card-title fs-4 text-danger">Tom and Jerry's Giant Adventure</h5>
+                        <p class="card-text ">Lorem ipsum dolor sit alias repellendus laboriosam cum, ipsa voluptas numquam quidem accusantium dolores eos sit ipsam, sequi perspiciatis. Dolore nostrum laborum animi fugit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <h1 class="mx-4 my-2">About Me</h1>
+    <div id="about">
+        <div class="flex-row d-flex flex-wrap flex-sm-nowrap align-items-center justify-content-center my-0">
+            <div class="card border-danger mx-3" style="max-width: 35rem;">
+                <h4 class="card-header text-danger">Intro</h4>
+                <div class="card-body">
+                    <p class="card-text">Jerry Mouse is a fictional character and one of the two titular main protagonists in Metro-Goldwyn-Mayer's series of Tom and Jerry theatrical animated short films.
+                    </p>
+                </div>
+            </div>
+            <div class="card border-warning m-3" style="max-width: 30rem;">
+                <h4 class="card-header text-warning">Relatives</h4>
+                <div class="card-body">
+                    <p class="card-text"> Uncle Pecos (uncle), Muscles (cousin), Dinky (nephew), Unnamed mother, Geraldine Mouse (sister), Sniffles (nephew), Uncle Harry (uncle), Merlin (cousin)</p>
+                </div>
+            </div>
+            <div class="card border-success m-3" style="max-width: 30rem;">
+                <h4 class="card-header text-success">Created and Designed by</h4>
+                <div class="card-body">
+                    <p class="card-text">William Hanna, Joseph Barbera and Harvey Eisenberg (1940–1953), Richard Bickenbach (1953–1958) respectively.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="navbar navbar-expand-lg navbar-expand-sm navbar-light bg-light m-2 ">
+        <div class="container">
+            <a class="navbar-brand text-xl" href="#home">🐹Jerry</a>
+            <a class="nav-link " href="# ">
+                <i class="bi bi-instagram"></i> Instagram
+            </a>
+            <a class="nav-link " href="# ">
+                <i class="bi bi-facebook"></i> Facebook
+            </a>
+            <a class="nav-link " href="# ">
+                <i class="bi bi-twitter"></i> Twitter
+            </a>
+        </div>
+    </footer>
+    <footer class="navbar navbar-expand-lg navbar-expand-sm navbar-light bg-light m-2 d-flex align-items-center justify-content-center">
+        <div>
+            Made with <i class="bi bi-heart-fill text-danger"></i> by
+            <a href="https://github.com/bhavesh1129">Bhavesh Garg</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
