@@ -37,3 +37,10 @@
 | Assignment No. | DIRECTORY LINKS | DEPLOYED LINK |
 | :---:   | :-: | :-: |
 | 1 | https://bit.ly/3iltXtF | https://bhavesh1129-jerry-bootstrap-website.netlify.app/ |
+
+<hr/>
+
+### JAVASCRIPT ASSIGNMENTS :rocket:
+| Assignment No. | DIRECTORY LINKS | DEPLOYED LINK |
+| :---:   | :-: | :-: |
+| 1 | https://bit.ly/2WoNmSv |  |
