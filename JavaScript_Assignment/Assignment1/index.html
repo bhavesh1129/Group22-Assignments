@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List | Bhavesh Garg</title>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <!-- External CSS File -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Main Body -->
+    <div class="wrapper">
+
+        <!-- Heading -->
+        <header>ToDo List</header>
+
+        <!-- Input Todo -->
+        <div class="inputField">
+            <input type="text" placeholder="Add your new Todo" />
+
+            <!-- Add Todo Button -->
+            <button class="fas fa-plus"></button>
+        </div>
+
+        <!-- Todo Lists -->
+        <ul class="todoList">
+            <!-- Fetching data from JS -->
+        </ul>
+
+        <!-- Footer -->
+        <div class="footer">
+            <span>You have <span class="pendingNum"></span> pending tasks.</span>
+
+            <!-- Clear Button -->
+            <button>Clear All</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="credits">Made with <span class="heart"> ❤ </span>by Bhavesh Garg</div>
+    </footer>
+
+    <!-- External JS File -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
