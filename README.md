@@ -13,8 +13,15 @@
 | 4 | https://bit.ly/3lAFlE7 |
 | 5 | https://bit.ly/3sfVrEt |
 | 6 | https://bit.ly/3D6ZqYU |
+| 7 | https://bit.ly/2VbBiU8 |
 
 <hr/>
+### AJAX-API ASSIGNMENTS :satellite:
+| Assignment No. | DIRECTORY LINKS | DEPLOYED LINK |
+| :---:   | :-: | :-: |
+| 1 | https://bit.ly/3mTVepJ |  |
+
+<hr />
 
 ### JAVASCRIPT ASSIGNMENTS :rocket:
 | Assignment No. | DIRECTORY LINKS | DEPLOYED LINK |
