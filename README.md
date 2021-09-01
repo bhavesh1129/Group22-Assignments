@@ -16,6 +16,7 @@
 | 7 | https://bit.ly/2VbBiU8 |
 
 <hr/>
+
 ### AJAX-API ASSIGNMENTS :satellite:
 | Assignment No. | DIRECTORY LINKS | DEPLOYED LINK |
 | :---:   | :-: | :-: |
