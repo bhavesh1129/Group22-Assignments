@@ -20,7 +20,7 @@
 ### AJAX-API ASSIGNMENTS :satellite:
 | Assignment No. | DIRECTORY LINKS | DEPLOYED LINK |
 | :---:   | :-: | :-: |
-| 1 | https://bit.ly/3mTVepJ |  |
+| 1 | https://bit.ly/3mTVepJ | https://bhavesh1129-weather-app.netlify.app/ |
 
 <hr />
 
