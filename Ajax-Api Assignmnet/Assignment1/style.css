@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading {}
+
+.heading-title {}
+
+.container {}
+
+.card {
+    margin: 63px auto;
+    height: 80vh;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 25px;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    margin: 20px 0;
+}
+
+.input-box input {
+    display: flex;
+    height: 45px;
+    width: 100%;
+    margin: 10px 0;
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    font-size: 17px;
+    border-radius: 3px;
+    padding-left: 15px;
+}
+
+.input-box button {
+    width: 60px;
+    height: 100%;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    background: #9c9c9c;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.card-image {
+    background-image: url("./assests/images/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-image .temp {}
+
+.card-image .weather-type {}
