@@ -18,10 +18,10 @@
 
 <hr/>
 
-### EXPRESS-MONGOOSE ASSIGNMENTS 
+### EXPRESS-MONGOOSE ASSIGNMENTS :bomb:
 | Assignment No. | DIRECTORY LINKS | DEPLOYED LINK |
 | :---:   | :-: | :-: |
-| 1 |  |  |
+| 1 | https://bit.ly/3kS1bSP |  |
 
 <hr />
 
