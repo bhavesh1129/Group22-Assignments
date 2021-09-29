@@ -18,6 +18,13 @@
 
 <hr/>
 
+### EXPRESS-MONGOOSE ASSIGNMENTS 
+| Assignment No. | DIRECTORY LINKS | DEPLOYED LINK |
+| :---:   | :-: | :-: |
+| 1 |  |  |
+
+<hr />
+
 ### AJAX-API ASSIGNMENTS :satellite:
 | Assignment No. | DIRECTORY LINKS | DEPLOYED LINK |
 | :---:   | :-: | :-: |
