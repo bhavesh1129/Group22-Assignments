@@ -21,7 +21,7 @@
 ### EXPRESS-MONGOOSE ASSIGNMENTS :bomb:
 | Assignment No. | DIRECTORY LINKS | DEPLOYED LINK |
 | :---:   | :-: | :-: |
-| 1 | https://bit.ly/3kS1bSP |  |
+| 1 | https://bit.ly/3kS1bSP | https://bhavesh1129-visitors-app.herokuapp.com/ |
 
 <hr />
 
