@@ -18,7 +18,7 @@
 
 <hr/>
 
-### REACT ASSIGNMENTS :bomb:
+### REACT ASSIGNMENTS :zap:
 | Assignment No. | DIRECTORY LINKS | DEPLOYED LINK |
 | :---:   | :-: | :-: |
 | 1 | https://bit.ly/3ABDCT1 | https://bhavesh1129-react-todolist.netlify.app/ |
