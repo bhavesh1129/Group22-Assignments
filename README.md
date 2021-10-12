@@ -18,6 +18,13 @@
 
 <hr/>
 
+### REACT ASSIGNMENTS :bomb:
+| Assignment No. | DIRECTORY LINKS | DEPLOYED LINK |
+| :---:   | :-: | :-: |
+| 1 | https://bit.ly/3ABDCT1 | https://bhavesh1129-react-todolist.netlify.app/ |
+
+<hr />
+
 ### EXPRESS-MONGOOSE ASSIGNMENTS :bomb:
 | Assignment No. | DIRECTORY LINKS | DEPLOYED LINK |
 | :---:   | :-: | :-: |
