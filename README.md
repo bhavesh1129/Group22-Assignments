@@ -5,6 +5,13 @@
 
 <hr/>
 
+### JAVA ASSIGNMENTS :trophy:
+| Assignment No. | DIRECTORY LINKS |
+| :---:   | :-: |
+| 1 | https://bit.ly/3nEnQT0 |
+
+<hr/>
+
 ### CPP ASSIGNMENTS :infinity:
 | Assignment No. | DIRECTORY LINKS |
 | :---:   | :-: |
