@@ -4,18 +4,16 @@ import java.io.*;
 import java.util.*;
 
 public class CelebrityProblem {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int n = Integer.parseInt(br.readLine());
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         int[][] arr = new int[n][n];
 
         for (int i = 0; i < n; i++) {
-            String line = br.readLine();
             for (int j = 0; j < n; j++) {
-                arr[i][j] = line.charAt(j) - '0';
+                arr[i][j] = sc.nextInt();
             }
         }
-
         findCelebrity(arr);
     }
 
@@ -24,27 +22,30 @@ public class CelebrityProblem {
         for (int i = 0; i < arr.length; i++) {
             st.push(i);
         }
-        while (st.size() >= 2) {
-            int i = st.pop();
-            int j = st.pop();
+        while (st.size() != 1) {
+            int banda1 = st.pop();
+            int banda2 = st.pop();
 
-            if (arr[i][j] == 1) {
-                //i isn't celebrity
-                st.push(j);
+            if (arr[banda1][banda2] == 1) {
+                st.push(banda2);
             } else {
-                //j isn't celebrity
-                st.push(i);
+                st.push(banda1);
             }
         }
-        int res = st.pop();
-        for (int i = 0; i < arr.length; i++) {
-            if (i == res) {
-                if (arr[i][res] == 0 || arr[res][i] == 1) {
-                    System.out.println("No Celebrity");
-                    return;
-                }
+
+        int potentialCeleb = st.pop();
+        for (int c = 0; c < arr.length; c++) {
+            if (arr[potentialCeleb][c] == 1) {
+                System.out.println("No celebrity!");
+                return;
             }
         }
-        System.out.println(res);
+        for (int r = 0; r < arr.length; r++) {
+            if (r != potentialCeleb && arr[r][potentialCeleb] == 0) {
+                System.out.println("No celebrity!");
+                return;
+            }
+        }
+        System.out.println(potentialCeleb);
     }
 }
