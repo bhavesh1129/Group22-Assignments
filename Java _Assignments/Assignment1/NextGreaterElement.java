@@ -5,12 +5,15 @@ import java.util.*;
 public class NextGreaterElement {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int[] ht = new int[n];
-        for (int i = 0; i < ht.length; i++) {
-            ht[i] = sc.nextInt();
+        int t = sc.nextInt();
+        while (t-- > 0) {
+            int n = sc.nextInt();
+            int[] ht = new int[n];
+            for (int i = 0; i < ht.length; i++) {
+                ht[i] = sc.nextInt();
+            }
+            nextGreater(ht);
         }
-        nextGreater(ht);
     }
 
     private static void nextGreater(int[] ht) {
@@ -26,6 +29,8 @@ public class NextGreaterElement {
         while (!st.isEmpty()) {
             nge[st.pop()] = -1;
         }
-        System.out.println(Arrays.toString(nge));
+        for (int i = 0; i < ht.length; i++) {
+            System.out.println(ht[i] + "," + nge[i]);
+        }
     }
 }
